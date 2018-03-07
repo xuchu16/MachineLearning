@@ -1,0 +1,7 @@
+
+Go to $HOME
+    cd .ssh
+    cat id_dsa.pub
+Copy the public key into GitHub: SSH and GPG keys --> new SSH key. Do not forget to set the title of the ssh key, although not important.
+
+Then you can clone a repository already created in your GitHub.
