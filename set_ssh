@@ -5,3 +5,11 @@ Go to $HOME
 Copy the public key into GitHub: SSH and GPG keys --> new SSH key. Do not forget to set the title of the ssh key, although not important.
 
 Then you can clone a repository already created in your GitHub.
+
+
+
+#how to push the repository
+git add set_ssh
+git commit -am "A Note Added on How to Use GitHub" / -am commod means give the Comments
+git remote add origin git@github.com:xuchu16/MachineLearning.git
+git push -u origin master
